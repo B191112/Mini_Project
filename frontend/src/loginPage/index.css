@@ -1,0 +1,49 @@
+.login-bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: black;
+}
+
+.login-container {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(50, 46, 46);
+  padding: 20px;
+  border-radius: 8px;
+  color: white;
+}
+
+.login-btn {
+  align-self: flex-start;
+  margin: 10px;
+}
+
+.login-page-website-logo {
+  align-self: center;
+  margin-bottom: 30px;
+  width: 60%;
+}
+
+label {
+  font-size: 14px;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+  .login-container {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .login-container {
+    width: 20%;
+  }
+}
